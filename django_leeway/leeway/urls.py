@@ -5,4 +5,5 @@ from . import views
 
 urlpatterns = [
     path('', views.simulation_form, name='home'), # new
+    path('map', views.map, name='map')
 ]

@@ -23,3 +23,7 @@ def simulation_form(request):
 
     context = {'form': LeewaySimulationForm()}
     return render(request, context=context, template_name="leeway-simulation.html")
+
+def map(request):
+    context = {'form': LeewaySimulationForm()}
+    return render(request, context=context, template_name="map.html")
